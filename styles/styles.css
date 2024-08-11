@@ -167,6 +167,59 @@ font-weight: 400;
 }
 
 
+/* change your habits*/
+.header{
+  align-items: center;
+ margin-top: 0px;
+ 
+}
+.header-1{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin: 0px 60px;
+ margin-left: 1px;
+ margin-right:12px;
+ margin-top: 100px;
+}
+
+.header-title{
+ color: rgb(255, 255, 255);
+ font-size: 3rem;
+font-weight: 900;
+}
+.header-description{
+ color: rgba(255, 255, 255, 0.5);
+ font-size: 1.2rem;
+font-weight: 400;
+
+}
+
+.fact{
+ float: left;
+margin-left: 40px;
+margin-right:20px;
+width: 300px;
+margin-top: 30px;
+}
+.fact-icon{
+ border-radius: 1px solid black;
+ border-radius: 50%;
+ 
+}
+.fact-section{
+ margin: 40px;
+ margin-left:50px;
+ margin-right:40px;
+}
+.fact-name{
+  color: rgb(255, 255, 255);
+}
+
+.fact-number{
+  color: rgba(255, 255, 255, 0.5);
+}
+
 
 
 
@@ -199,4 +252,23 @@ margin: 28px 0px;
 width: 250px;
 height: 54px;
    }
+
+
+   .header{
+    position: static;
+    width: 318px;
+    height: 38px;
+    margin-top: -100px;
+    margin-left: 40px;
+   }
+   .fact{
+    position: static;
+width: 231px;
+height: 274px;
+margin-top: 250px;
+ margin-left: 30px;
+  }
+  .fact-icon{
+    margin-top: 20px;
+  }
   }
