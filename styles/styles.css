@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miami');
+.work-inter-font {
+  font-family: "Inter", sans-serif;                           
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work-miami-font{
+  font-family: 'Miami', sans-serif;
+                                                
+}
+
+/* shared style */
+.display-flex{
+  display: flex;
+}
+.white-1{
+  color: rgb(255, 255, 255);
+}
+.white-2{
+  color: rgba(8, 8, 7, 0.5);
+}
+.orange{
+  color: rgba(8, 8, 7, 0.755);
+}
+
+.bg-color{
+    background: linear-gradient(700.00deg, rgb(240, 116, 22),rgb(238, 170, 133));
+   
+}
+/* navbar related style */
+
+.nav-bar{
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-item{
+   list-style: none;
+   margin-right: 50px;
+   
+  
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 400;
+}
+.nav-home {
+  border-radius: 30px;
+  background-color: rgb(239, 189, 114);
+  margin: 0 10px;
+  padding: 8px 20px;
+  margin-bottom: 40px;
+}
+.nav-links{
+  border: 1px solid wheat;
+  border-radius: 39px;
+  margin: 7px 10px;
+  margin-bottom:50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.nav-bar , .banner{
+ max-width: 1440px;
+ margin: 0 auto;
+
+}
+.nav-bar svg{
+  color: aquamarine;
+}
+
+
+
+.fit-brand{
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-right: 500px;
+}
+
+/* banner shared style */
+.banner{
+  display: flex;
+}
+.banner-head{
+  margin: 50px;
+}
+.banner-title{
+  font-size: 4.2rem;
+font-weight: 900;
+}
+.banner-description{
+  font-size: 1.1rem;
+font-weight: 400;
+}
+
+.img-pic{
+  width: 100%;
+}
+.btn-primary{
+  border-radius: 42px;
+background: rgb(230, 83, 60);
+margin: 0px 14px;
+padding: 16px 40px;
+border: none;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.btn-1{
+background-color: rgb(195, 172, 143);
+border-radius: 42px;
+font-size: 1.3rem;
+font-weight: 600;
+border: none;
+padding: 16px 40px;
+}
+#btn-section{
+ border-radius: 12px;
+backdrop-filter: blur(10px);
+background: rgba(235, 176, 109, 0.54);
+border: none;
+padding: 10px 20px;
+position: absolute;
+width: 206px;
+height: 96px;
+left: 1100px;
+top: 550px;
+}
+ #ved-part{
+  font-size: 1.5rem;
+font-weight: 900;
+color: rgb(11, 11, 11);
+} 
+.ved-1{
+  color: rgba(37, 30, 32, 0.65);
+  font-size: 1.1rem;
+font-weight: 400;
+}
+#btn-only{
+  
+  border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+border: none;
+padding: 10px 30px;
+position: absolute; 
+width: 138px;
+height: 100px;
+left: 1300px;
+top:300px;
+}
+
+#ved-2{
+  color: rgb(255, 255, 255);
+font-size: 1.3rem;
+font-weight: 900;
+}
+
+.ved-3{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+font-weight: 400;
+}
+
+
+
+
+
+/* media screen  */
+@media screen and (max-width: 576px) {
+  .banner{
+    flex-direction: column;
+
+  }
+  #btn-section{
+width: 145px;
+height: 74px;
+left: 184px;
+top:1120px;
+  }
+  #btn-only{
+    width: 155px;
+    height: 72px;
+    left: 32px;
+    top: 1340px;
+  }
+   .btn-primary{
+    position: static;
+width: 240px;
+height: 54px;
+margin: 28px 0px;
+   }
+   .btn-1{
+    position: static;
+width: 250px;
+height: 54px;
+   }
+  }
