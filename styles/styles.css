@@ -377,7 +377,6 @@ height: 40px;
 .table-1{
   border: 1px solid rgb(249, 248, 248);
   padding: 15px;
-  
 }
 
 .big-table{
@@ -387,15 +386,285 @@ height: 40px;
   margin-bottom: 50px;
 }
 
+/* meet our team */
+
+.our-team{
+  width: 671px;
+height: 120px;
+margin: 50px 0px;
+margin-left:400px;
+padding:20px;
+}
+.meet-team{
+  color: rgb(255, 255, 255);
+  margin: 14px 0px;
+  padding: 14px;
+  text-align: center;
+}
+
+.meet-team-1{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 14px 0px;
+  text-align: center;
+}
+
+.members{
+  border-radius: 18px;
+  margin: 0px 20px;
+  padding: 30px;
+  width: 1014px;
+height: 560px;
+margin-left: 200px;
+background: rgba(255, 255, 255, 0.1);
+}
+
+.img-tainner{
+  border-radius: 18px;
+  margin: 20px 0px;
+  width: 326.67px;
+height: 272px;
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+.Jerome-Bell{
+  color: white;
+  margin: 20px;
+  margin-right: 30px;
+  margin-top: -80px;
+  font-size: 1.2rem;
+}
+
+.trainer{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20px;
+  margin-right: 30px;
+  margin-top:-20px ;
+}
+
+.img-trainer-1{
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2),url(image);
+  width: 326px;
+height: 272px;
+margin: 20px 0px;
+margin-left: 350px;
+margin-top: -300px;
+margin-right: 30px;
+}
+.Cameron{
+  color: white;
+  margin: 20px;
+  margin-left:370px;
+  margin-top: -120px;
+  font-size: 1.2rem;
+  padding: 20px 30px;
+}
+
+.trainer-1{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20px;
+  margin-right: 30px;
+  margin-top: -44px;
+  margin-left: 380px;
+  padding: 10px 20px;
+}
+
+.img-trainer-2{
+  width: 330px;
+  height: 280px;
+margin: 20px 0px;
+margin-left: 690px;
+margin-top: -300px;
+margin-bottom: 10px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+.Darrell{
+  color: white;
+  margin: 20px;
+  margin-left:700px;
+  margin-top: -80px;
+  font-size: 1.2rem;
+
+}
+
+.trainer-2{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20px;
+  margin-left: 700px;
+  margin-top: -13px;
+}
+
+.img-trainer-3{
+  width: 340px;
+  height: 230px;
+  margin-top: 20px;
+  border-radius: 18px;
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+.Dianne{
+  color: white;
+  margin: 20px;
+  margin-top: -60px;
+
+}
+
+.trainer-3{
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20px;
+  margin-top: -20px;
+
+}
+
+.img-trainer-4{
+  border-radius: 18px;
+background: rgba(0, 0, 0, 0.2),url(image);
+width: 320px;
+height: 240px;
+margin-left: 350px;
+margin-top: -300px;
+margin-bottom: 18px;
+}
+
+.Cody{
+  color: white;
+  margin: 20px;margin-left: 400px;
+  margin-top: -80px;
+}
+
+.trainer-4{
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 400px;
+  margin-top: -20px;
+}
+
+.img-trainer-5{
+  border-radius: 18px;
+background: rgba(0, 0, 0, 0.2),url(image);
+width: 320px;
+height: 255px;
+margin-left: 930px;
+margin-top: -300px;
+margin-bottom:28px;
+}
+
+.Theresa{
+  color: white;
+  margin-left:900px;
+  font-size: 1rem;
+  margin-top: -90px;
+  margin-left: 930px;
+}
+
+.trainer-5{
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 950px;
+  margin-top: -10px;
+}
+
+.last-section{
+  background: rgba(255, 255, 255, 0.1);
+  width:1440px;
+height: 400px;
+margin-right:-30px;
+margin-top: 50px;
+margin: 80px 20px;
+ padding-left:10px;
+
+}
+.last-1{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 1059px;
+height: 249px;
+left: 190px;
+top: 66px;
+}
+.last-title{
+  color: rgb(230, 83, 60);
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin: 20px 0px;
+  width: 250px;
+height: 84px;
+margin-top: 66px;
+margin-left: 230px;
+
+}
+
+.last-p{
+  width: 443px;
+height: 72px;
+margin: 20px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-left: 220px;
+margin-top: -20px;
+}
+
+.last-get{
+  color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 700;
+margin-left: 900px;
+margin-top: -160px;
+}
+
+.last-ul{
+  margin: 20px;
+  margin-left: 870px;
+}
+.last-li{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+}
+
+.last-get-1{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+font-weight: 700;
+margin-left: 1100px;
+margin-top: -180px;
+}
+
+.last-ul-1{
+  margin: 20px;
+  margin-left: 1070px;
+}
+
+.last-li-1{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+}
+
+.vector{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: -200px;
+  left: 189px;
+ top: 300px;
+}
+
+.copy{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 20px;
+font-weight: 400;
+margin-top: 60px;
+margin-left: 550px;
+}
+
 
 
 /* media screen  */
 @media screen and (max-width: 576px) {
   .banner{
     flex-direction: column;
-  }
-  .banner-title{
-    
   }
   #btn-section{
 width: 145px;
@@ -421,7 +690,12 @@ width: 250px;
 height: 54px;
    }
 
-
+.fit-brand{
+  position: static;
+width: 132px;
+height: 43px;
+margin-left: 60px;
+}
    .header{
     position: static;
     width: 318px;
@@ -433,7 +707,7 @@ height: 54px;
     position: static;
 width: 231px;
 height: 274px;
-margin-top: 350px;
+margin-top: 300px;
  margin-left: 30px;
   }
   .fact-icon{
@@ -446,40 +720,41 @@ margin-top: 350px;
   .run-section{
     position: absolute;
     width: 200px;
-    height: 500px;
+    height: 530px;
     right:-10px;
     left:-150px;
-    top: 3500px;
+    top: 3300px;
   }
   .run-1{
     position: static;
 width: 287px;
 height: 76px;
 margin-left: -30px;
-margin-top: -40px;
+margin-top: -50px;
   }
   .run-2{
     position: static;
 width: 200px;
-height: 96px;
-margin-left: -80px;
+height: 100px;
+margin-left: -70px;
+margin-top: -20px;
   }
   .Join-btn{
     position: static;
 width: 200px;
 height: 54px;
 margin-left: -5px;
-margin: 24px 0px;
+margin: 25px 0px;
 padding: 16px 40px;
-margin-top: -10px;
-  }
+margin-top: 60px;
+}
   .run-img{
     position: absolute;
 width: 200px;
 height: 100px;
 /* left: 100px; */
 right: -80px;
-top: 800px;
+top: 850px;
   }
 
   .big-table{
@@ -495,7 +770,7 @@ top: 3724px;
 width: 353px;
 height: 124px;
 left: -460px;
-top: 4600px;
+top: 4340px;
   }
   .bmi-description{
     position: static;
@@ -504,11 +779,16 @@ height: 72px;
 
   }
   .bmi-calculator{
-    position: absolute;
+    position: absolute; 
 width: 350px;
 height: 1100px;
 left: -60px;
-top: 4700px;
+top: 4460px;
+}
+.bmi-description{
+  position: static;
+width:300px;
+height: 100px;
 }
 
 .bmi-1{
@@ -545,10 +825,10 @@ height: 19px;
  }
  .Calculate-2{
   position: static;
-width: 346px;
+width: 300px;
 height: 72px;
 margin: 14px 0px;
-margin-top: 50px;
+margin-top: 5px;
  }
  #height{
   display: flex;
@@ -559,6 +839,7 @@ position: static;
 width: 170px;
 height: 40px;
 margin: 0px 10px;
+margin-top: 20px;
  }
  #weight{
   display: flex;
@@ -597,4 +878,124 @@ margin:10px;
 width: 179px;
 height: 22px;
  }
+
+ .our-team{
+  position: absolute;
+width: 309px;
+height: 124px;
+right: -500px;
+margin-top: 3900px;
+margin-right: 450px;
+
+ }
+ .members{
+  position: static;
+width: 353px;
+height: 1600px;
+margin-left: -20px;
+margin-top: 4100px;
+ }
+ 
+ .img-trainer-1{
+  position: static;
+width: 250px;
+height: 200px;
+margin-bottom: -500px;
+margin-left: 20px;
+ }
+ .img-trainer-2{
+  position: static;
+width: 250px;
+height: 200px;
+margin-bottom:-750px;
+margin-left: 30px;
+ }
+ .img-trainer-4{
+  position: static;
+width: 250px;
+height: 200px;
+margin-bottom: -750px;
+margin-left: 30px;
+margin-left: 10px;
+ }
+ .img-trainer-5{
+   position: static;
+width: 250px;
+height: 200px;
+margin-bottom: 200px;
+margin-top: -340px;
+ margin-left: 20px; 
+ }
+ .img-trainer-3{
+  position: static;
+width: 250px;
+height: 200px;
+margin-left: 20px;
+ }
+ .img-tainner{
+  position: static;
+width: 250px;
+height: 200px;
+margin-left: 20px;
+ }
+ .last-section{
+  position: absolute;
+width: 393px;
+height: 986px;
+left: 0px;
+right: 300px;
+top: 7600px;
+ }
+ .last-title{
+  position: static;
+width: 256px;
+height: 84px;
+margin-left: 100px;
+ }
+ .last-p{
+  position: static;
+width: 317px;
+height: 96px;
+margin-left:60px;
+ }
+ .last-get{
+  position: static;
+width: 181px;
+height: 38px;
+margin-left: 100px;
+margin-top:10px ;
+ }
+.last-ul{
+  position: static;
+width: 181px;
+height: 172px;
+margin-left: 40px;
+}
+.last-get-1{
+  position: static;
+width: 181px;
+height: 38px;
+margin-left: 70px;
+margin-top: 30px;
+}
+.last-ul-1{
+  position: static;
+width: 165px;
+height: 172px;
+margin-left: 20px;
+}
+.vector{
+  position: absolute;
+width: 354px;
+height: 0;
+left: 19px;
+top: 864px;
+}
+.copy{
+  position: absolute;
+width: 318px;
+height: 24px;
+left: -500px;
+top: 850px;
+}
 }
